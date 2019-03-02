@@ -20,6 +20,8 @@ public class Dog extends Animal {
 	@Override
 	public void eat() {
 		System.out.println("Dog.eat() called");
+		// super hace referencia a la clase padre, se usa para llamar al método del
+		// padre en métodos @Override
 		super.eat();
 	}
 }

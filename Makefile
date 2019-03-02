@@ -8,4 +8,7 @@ clean:
 inheritance:
 	javac -sourcepath src src/inheritance/*.java && java -classpath src inheritance.Main
 
+constructors:
+	javac -sourcepath src src/constructors/*.java && java -cp src constructors.Main
+
 .PONY: clean
