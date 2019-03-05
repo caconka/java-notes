@@ -11,4 +11,7 @@ inheritance:
 constructors:
 	javac -sourcepath src src/constructors/*.java && java -cp src constructors.Main
 
+composition:
+	javac -sourcepath src src/composition/*.java && java -cp src composition.Main
+
 .PONY: clean
