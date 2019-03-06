@@ -1,5 +1,5 @@
 
-package com.timbuchalka;
+package polymorphism;
 
 class Movie {
 	private String name;
@@ -68,6 +68,7 @@ class Forgetable extends Movie {
 	}
 
 	// No plot method
+	// Al llamarse al método plot de esta clase se llamara a la clase padre
 }
 
 
@@ -76,6 +77,7 @@ public class Main {
 	public static void main(String[] args) {
 		for(int i=1; i<11; i++) {
 			Movie movie = randomMovie();
+			// Los resultados del método plot de cada clase serán diferentes
 			System.out.println("Movie #" + i +
 					" : " + movie.getName() + "\n" +
 					"Plot: " + movie.plot() + "\n");

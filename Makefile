@@ -17,4 +17,7 @@ composition:
 encapsulation:
 	javac -sourcepath src src/encapsulation/*.java && java -cp src encapsulation.Main
 
+polymorphism:
+	javac -sourcepath src src/polymorphism/*.java && java -cp src polymorphism.Main
+
 .PONY: clean
