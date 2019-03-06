@@ -14,4 +14,7 @@ constructors:
 composition:
 	javac -sourcepath src src/composition/*.java && java -cp src composition.Main
 
+encapsulation:
+	javac -sourcepath src src/encapsulation/*.java && java -cp src encapsulation.Main
+
 .PONY: clean
